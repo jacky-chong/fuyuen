@@ -1,0 +1,205 @@
+*{
+    padding: 0px;
+    margin:0 px;
+  
+}
+
+body{
+    min-width:1330px;        /* Suppose you want minimum width of 1000px */
+    width: auto !important;  /* Firefox will set width as auto */
+    width:1330px;            /* As IE6 ignores !important it will set width as 1000px; */
+    background-color:rgb(78, 25, 109);
+
+    
+}
+
+.bd{
+    border: 1px;
+    border-radius: 10px;
+ }
+
+ /*
+#grad{
+    background-image: linear-gradient(to bottom right, rgb(240, 212, 236),rgb(231, 186, 225), rgb(189, 80, 174),purple, blue);
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    
+   
+}
+*/
+
+
+
+.white{
+    color:white;
+}
+
+.H1{
+    color: white;
+    font-size: 150%;
+    margin-top:170px;
+    margin-left: 20px;
+    background-color:rgb(16, 1, 26);
+    width:720px;
+    padding:5px;
+}
+
+.H2{
+    color: white;
+    font-size: 150%;
+    margin-left:20px;
+    background-color: rgb(16, 1, 26);
+    width: 720px;
+    padding:5px;
+}
+
+.H3{
+    color: white;
+    font-size: 150%;
+    margin-left:20px;
+    background-color: rgb(16, 1, 26);
+    width: 720px;
+    padding:5px;
+}
+
+.main-container1 div{
+    
+    padding: 10px;
+    
+}
+
+.main-container1{
+    margin-left: 20px;
+    display: flex;
+    width: 720px;
+    background-color: rgb(43, 7, 63);
+}
+
+.right-column-1{
+    display:flex;
+}
+.main-container2 div{
+    
+    padding: 10px;
+    
+}
+
+.main-container2{
+    margin-left: 20px;
+    display: flex;
+    width: 720px;
+    background-color: rgb(43, 7, 63);
+   
+}
+
+.main-container2_left-1{
+    flex:1;
+}
+
+.main-container2_left-2{
+    flex:1;
+}
+
+.main-container2_left-3{
+    flex:1;
+   
+} 
+
+.top_container div{
+    
+  
+}
+
+.top_container{
+    margin-left: 20px;
+    display:flex;
+    width: 720px;
+    background-color: rgb(43, 7, 63);
+}
+
+.container_right{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.button{
+    border-radius: 10px;
+    background-color: rgb(134, 1, 134);
+    color:white;
+    padding: 15px 10px;
+    float: right;
+    margin-top: 35px;
+    margin-left: 150px;
+
+   
+}
+
+.button:hover{
+    background-color: rgb(255, 4, 255);
+    color:white;
+}
+
+.button_edit{
+    border-radius: 10px;
+    background-color: rgb(66, 204, 48);
+    color:white;
+    padding: 10px 25px;
+    position: absolute;
+    right: 20px;
+    top: 120px;
+
+   
+}
+
+.button_edit:hover{
+    background-color: rgb(13, 85, 7);
+    color:white;
+}
+
+.middle{
+   
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    top: 30%;
+    left: 25%;
+
+}
+
+
+.button1{
+    border: 0px;
+    padding:0;
+    margin: 0;
+    width: 700px;
+    height: 400px;
+    position:relative;
+    transition-duration: .30s;
+    background: url("../img/btnbcg/Picture1.png");
+    background-size: cover;
+}
+
+.button2:hover{
+    background: url("../img/btnbcg/Picture2.png");
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.buttondlt{
+    border-radius: 10px;
+    background-color: rgb(248, 24, 24);
+    color:white;
+    padding: 10px 25px;
+    position: absolute;
+    right: 150px;
+    top: 120px;
+
+   
+}
+
+.buttondlt:hover{
+    background-color: rgb(165, 16, 16);
+    color:white;
+}
